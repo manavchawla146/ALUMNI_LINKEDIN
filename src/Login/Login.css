@@ -1,0 +1,81 @@
+.login-form{
+    width: 20%;
+    /* background-color: yellow; */
+    padding: 2rem;
+    /* box-shadow: 1px 1px black ; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+input{
+    width: 100%;
+    margin: 1rem auto;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    border-radius: 1px;
+    border: 1px solid black;
+}
+button{
+    background: transparent;
+    border: none;
+}
+.forget{
+    display: block;
+    color: rgb(56, 56, 230);
+    font-weight: bold;
+}
+
+.login{
+    background-color: rgb(56, 56, 230);
+    width: 100%;
+    padding: 0.5rem;
+    margin: 1rem auto;
+    color: white;
+    border-radius: 50px;
+}
+
+.login:hover{
+    
+    background-color: rgb(94, 94, 238);
+}
+
+.info-text {
+    font-size: 1rem;
+    color: #333;
+    /* margin: 20px 0; */
+}
+
+.register-btn {
+    /* color: #fff; White text */
+    color: #007bff; /* Blue background */
+    border: none;
+    margin: 0.5rem auto;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+.register-btn:focus {
+    outline: 2px solid #0056b3; /* Outline on focus for accessibility */
+}
+
+.or{
+    text-align: center;
+}
+
+.google{
+    width: 100%;
+    border: 1px solid black;
+   display: flex;
+   align-items: center;
+   /* justify-content: space-around; */
+   /* gap: 2px; */
+   border-radius: 20px;
+}
+.google-icon {
+    margin-right: 8px;
+    height: 20px;
+  }     

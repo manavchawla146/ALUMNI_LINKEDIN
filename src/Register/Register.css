@@ -1,0 +1,80 @@
+.register-form {
+    width: 20%;
+    /* background-color: yellow; */
+    padding: 2rem;
+    /* box-shadow: 1px 1px black ; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+input {
+    width: 100%;
+    margin: 1rem auto;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    border-radius: 1px;
+    border: 1px solid black;
+}
+
+button {
+    background: transparent;
+    border: none;
+}
+
+.info-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+.login-btn {
+    color: #007bff; /* Blue text */
+    border: none;
+    margin: 0.5rem auto;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.login-btn:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+.login-btn:focus {
+    outline: 2px solid #0056b3; /* Outline on focus for accessibility */
+}
+
+.or {
+    text-align: center;
+}
+
+.google{
+    width: 100%;
+    border: 1px solid black;
+   display: flex;
+   align-items: center;
+   /* justify-content: space-around; */
+   /* gap: 2px; */
+   border-radius: 20px;
+   padding: 0.5rem;
+}
+.google-icon {
+    margin-right: 8px;
+    height: 20px;
+  }     
+
+.google:hover {
+    background-color: #f1f1f1;
+}
+
+
+.register{
+    background-color: rgb(56, 56, 230);
+    width: 100%;
+    padding: 0.5rem;
+    margin: 1rem auto;
+    color: white;
+    border-radius: 50px;
+}
+.register:hover{
+    
+    background-color: rgb(94, 94, 238);
+}
