@@ -40,7 +40,8 @@ const RegisterForm = () => {
         fullName, 
         email, 
         phone, 
-        role // Include role in Firestore document
+        role,// Include role in Firestore document
+        password
       }); 
       console.log('User registered successfully'); 
       // Optionally, redirect the user or clear the form 
